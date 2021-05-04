@@ -1,0 +1,41 @@
+.form {
+    background-color: rgb(255, 253, 240);
+    padding:15px;
+    border:1px solid #333;
+    border-radius:10px;
+}
+
+.form__button {
+    border-radius:5px;
+    border: 1px solid #333;
+    padding:6px;
+    margin: 3px;
+    background-color: rgb(201, 196, 196);
+}
+
+.form__button:hover {
+    background-color: hsl(0, 1%, 85%);
+}
+
+.form__legend {
+    padding:7px;
+    border:1.5px solid #444;
+    border-radius:5px;
+    font-weight:700;
+    background-color: rgb(201, 196, 196);
+}
+
+.form__listItem {
+    padding:10px;
+  
+}
+
+.form__list {
+    list-style-type: none;
+}
+
+.form__labelText {
+    width:100%;
+    max-width: 400px;
+    margin-right:15px;
+}
